@@ -31,7 +31,8 @@ for (i = 0; i < positions.length; i++) {
 
 var arr = ["Primero", "Segundo", "Tercero", "Cuarto", "Soy el último elemento"]
 var newArray = ["Quinto", "Sexto"]
-var elem = arr.splice(4, 1)[0]
+var i = 0
+var elem = arr.pop()
 
 newArray.push(elem)
 
