@@ -28,7 +28,7 @@ for (i = 0; i < positions.length; i++) {
 }
 */
 //Corrigiendo posiciones
-
+/*
 var arr = ["Primero", "Segundo", "Tercero", "Cuarto", "Soy el último elemento"]
 var newArray = ["Quinto", "Sexto"]
 var i = 0
@@ -43,3 +43,15 @@ for (i = 0; i < newArray.length; i++) {
 for (i = 0; i < arr.length; i++) {
     console.log(arr[i])
 }
+*/
+//Mayores de edad
+//Objetivo: Imprimir los elementos del siguiete arreglo, que sean números mayores o iguales a 18. Los números representan la edad de personas.
+
+var ages = [12, 3, 5, 44, 18, 2, 55, 26]
+
+for (var i = 0; i < ages.length; i++) {
+    if (ages[i] >= 18) { 
+        console.log(ages[i])
+    }
+}
+
