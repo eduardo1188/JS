@@ -88,3 +88,20 @@ console.log(contraseña("esta es una prueba")); // "3st43sun4pru3b4"
 console.log(contraseña("")); // ""
 */
 //
+function capitalize(string) {
+    var words = string.split(' ');
+
+    for(var i = 0; i < words.length; i++) { // 11
+      var chars = words[i].split('');
+  
+      chars[0] = chars[0].toUpperCase();
+  
+      words[i] = chars.join('');
+    }
+  
+    return words.join(' ');
+  }
+
+  // casos de prueba
+console.log(capitalize("pedro perez")); // "Pedro Perez"
+console.log(capitalize("make it real")); // "Make It Real"
