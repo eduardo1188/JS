@@ -35,7 +35,7 @@ console.log(generatePassword("hola")); // "h0l4"
 console.log(generatePassword("esta es una prueba")); // "3st43sun4pru3b4"
 console.log(generatePassword("")); // ""
 */
-
+/*
 function capitalize (str) {
    //return str[0].toUpperCase() + str.substring(1)
    cosnt words = str.split(" ")
@@ -45,4 +45,4 @@ function capitalize (str) {
    return words.join(" ")
 }
 console.log(capitalize("make it real")) //Make It Real
-
+*/
